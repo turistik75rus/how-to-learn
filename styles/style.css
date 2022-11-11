@@ -2,9 +2,8 @@
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
+  margin: 0;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
@@ -15,6 +14,9 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: flex;
+  
+  background-color: #f2f2f2;
+  position: relative;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -52,7 +54,7 @@
 }
 
 .header__title{
-  align-self: center;
+  margin: auto ;
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
@@ -75,4 +77,42 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+}
+
+.description{
+  display: flex;
+  margin: 100px 0;
+}
+
+.two-columns{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.brief{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text{
+  min-width: 784px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  list-style: none;
+  margin: 0;
+}
+
+.two-columns__main-text > li:nth-of-type(2n){
+  padding: 30px 0;
+}
+
+.span-accent{
+  font-weight: bold;
 }
