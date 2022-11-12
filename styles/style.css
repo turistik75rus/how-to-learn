@@ -104,7 +104,7 @@
   width: 80%;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
+font-weight: normal;
   list-style: none;
   margin: 0;
 }
@@ -115,4 +115,15 @@
 
 .span__accent{
   font-weight: bold;
+}
+
+
+/* digits start*/
+
+.digits__title{
+  margin: 0 auto;
+}
+
+.digits__facts__table {
+  display: flex;
 }
