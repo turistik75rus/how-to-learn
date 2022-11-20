@@ -1,6 +1,7 @@
 
-.link {
+.header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .page {
@@ -16,13 +17,12 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   display: flex;
   background-color: #f2f2f2;
   margin-bottom: 100px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -42,7 +42,7 @@
   left: 64px;
 }
 
-.header_main-illustration{
+.header__main-illustration{
   right: 0;
   bottom: 0;
   height: 608px;
@@ -64,6 +64,7 @@
 
 
 .header__subtitle{
+  margin: 0;
   width: 388px;
   left: 64px;
   bottom: 30px;
@@ -76,6 +77,7 @@
 
 
 .description{
+  margin: 0;
   margin-bottom: 100px;
   display: flex;
 }
@@ -96,6 +98,7 @@
 }
 
 .two-columns__main-text{
+  margin: 0;
   min-width: 784px;
   width: 80%;
   line-height: 34px;
@@ -106,7 +109,7 @@
   padding-left: 40px;
 }
 
-.paragraph{
+.two-columns__paragraph{
   margin: 0;
 }
 
@@ -119,13 +122,13 @@
 }
 
 
-/* digits start*/
 
 .digits{
   margin-bottom: 100px;
 }
 
-.digits__section-title{
+.section-title{
+  margin: 0;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -135,7 +138,8 @@
   margin-bottom: 20px;
 }
 
-.digits__section-subtitle{
+.section-subtitle{
+  margin: 0;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -163,6 +167,7 @@
 }
 
 .table__heading{
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
@@ -171,15 +176,12 @@
 }
 
 .table__text{
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 20px;
 }
-
-/* digits end*/
-
-/* feynman start */
 
 .feynman{
   background-color: #f2f2f2;
@@ -188,6 +190,7 @@
 }
 
 .feynman__title{
+  margin: 0;
   padding-top: 100px;
   width: 648px;
   line-height: 1.15;
@@ -201,6 +204,7 @@
 }
 
 .feynman__subtitle{
+  margin: 0;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
@@ -218,6 +222,8 @@
   font-size: 36px;
   font-weight: normal;
   position: absolute;
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 
@@ -230,11 +236,10 @@
   position: absolute;
 }
 
-/* feynman end */
 
 
 .kaufman{
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
   padding: 90px 0;
   overflow: hidden;
@@ -243,7 +248,8 @@
 
 
 
-.section-title__theme-dark{
+.section-title_theme-dark{
+  margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -253,7 +259,8 @@
   margin-bottom: 20px;
 }
 
-.section-subtitle__theme-dark{
+.section-subtitle_theme-dark{
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -270,12 +277,14 @@
 }
 
 .table__heading_theme_dark{
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text_theme_dark{
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -287,7 +296,7 @@
 }
 
 
-.section-triangle{
+.kaufman__triangle{
   width: 837px;
   height: 837px;
   top: 0;
@@ -299,7 +308,7 @@
 
 .footer{
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #f2f2f2;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -314,37 +323,50 @@
   position: relative;
 }
 
-.footer__column {
+.footer__column_content-copyright{
   flex-basis: 711px;
+  flex-grow:1;
 }
 
-.footer__column_content_copyright{
-  display: flex;
-  justify-content: space-around;
+.footer__column_content-info{
+  flex-grow:1;
 }
+
+.footer__column_content-social{
+  flex-grow:1;
+}
+
 
 .footer__author{
+  margin: 0;
   bottom: 0;
   padding: 18px 0;
-  left: 64px;
+  left: 0;
   position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 
 .footer__column-links{
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column-link{
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .footer__column-heading{
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -357,7 +379,9 @@
   height: 20px;
 }
 
-.logo__place_footer{
-  top: 30px;
-  left: 64px;
+.logo_place_footer{
+  top: 0;
+  left: 0;
+  height: 32px;
+  width: 228px;
 }
