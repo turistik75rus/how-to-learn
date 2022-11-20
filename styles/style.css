@@ -105,7 +105,6 @@
   font-size: 24px;
   font-weight: normal;
   list-style: none;
-  margin: 0;
   padding-left: 40px;
 }
 
@@ -128,7 +127,6 @@
 }
 
 .section-title{
-  margin: 0;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -139,7 +137,6 @@
 }
 
 .section-subtitle{
-  margin: 0;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -190,7 +187,6 @@
 }
 
 .feynman__title{
-  margin: 0;
   padding-top: 100px;
   width: 648px;
   line-height: 1.15;
