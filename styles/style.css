@@ -232,16 +232,13 @@
 
 /* feynman end */
 
-.kaufman{
-  position: relative;
-}
-
 
 .kaufman{
   background-color: #000000;
   color: white;
   padding: 90px 0;
   overflow: hidden;
+  position: relative;
 }
 
 
