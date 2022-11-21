@@ -200,7 +200,6 @@
 }
 
 .feynman__subtitle{
-  margin: 0;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
@@ -245,7 +244,6 @@
 
 
 .section-title_theme-dark{
-  margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -256,7 +254,7 @@
 }
 
 .section-subtitle_theme-dark{
-  margin: 0;
+
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
