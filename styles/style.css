@@ -321,22 +321,14 @@
   margin: 0 auto;
   width: 90%;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer__column_content_copyright{
   flex-basis: 711px;
-  flex-grow:1;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
-
-.footer__column_content_info{
-  flex-grow:1;
-}
-
-.footer__column_content_social{
-  flex-grow:1;
 }
 
 
@@ -361,7 +353,6 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  margin-bottom: 10px;
   text-decoration: none;
 }
 
