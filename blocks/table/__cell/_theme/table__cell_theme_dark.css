@@ -1,0 +1,9 @@
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  z-index: 1;
+}
+
+.table__cell_theme_dark:nth-of-type(5n) {
+  margin-right: 0;
+}

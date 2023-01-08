@@ -1,0 +1,7 @@
+.two-columns__paragraph{
+  margin: 0;
+}
+  
+.two-columns__main-text > .two-columns__paragraph:nth-of-type(2n){
+  padding: 30px 0;
+}
