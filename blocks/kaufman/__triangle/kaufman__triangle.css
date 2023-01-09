@@ -5,11 +5,5 @@
   right: -210px;
   z-index: 0;
   position: absolute;
-  background-image: url("../images/kaufman-triangle.svg");
-  background-size: contain;
-  -webkit-animation: rotation 20s linear infinite;
-  -moz-animation: rotation 20s linear infinite;
-  -ms-animation: rotation 20s linear infinite;
-  -o-animation: rotation 20s linear infinite;
-  animation: rotation 20s linear infinite;
+  background-image: url("../../../images/kaufman-triangle.svg");
 }
